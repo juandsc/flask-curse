@@ -1,1 +1,2 @@
-# Flask curse \n from codigofacilito
+# Flask curse
+from codigofacilito

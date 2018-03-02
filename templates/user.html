@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Curse</title>
+  </head>
+  <body>
+    <h1>Hello!</h1>
+    <h4>{{ name }}</h4>
+    <p>{{ age }}</p>
+
+    {% if age > 18 %}
+      <p>Is an adult</p>
+    {% endif %}
+
+    {% for item in list %}
+      <p>{{ item }}</p>
+    {% endfor %}
+  </body>
+</html>
