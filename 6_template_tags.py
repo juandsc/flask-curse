@@ -1,4 +1,4 @@
-''' Example of sending parameters to html.'''
+''' Example of sending parameters to html template.'''
 from flask import Flask
 from flask import render_template as rt
 

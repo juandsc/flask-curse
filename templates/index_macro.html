@@ -1,0 +1,6 @@
+{% extends 'base/base2.html' %}
+{% block title %}{{title}}{% endblock %}
+{% block content %}
+  {% from "macro.html" import show_list_h %}
+  {{ show_list_h(title) }}
+{% endblock %}
